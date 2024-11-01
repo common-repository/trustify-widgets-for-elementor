@@ -1,0 +1,207 @@
+.trustify {
+    padding: 20px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+/* Grid */
+.w-grid_wrapper .grid-row {
+    display: grid;
+    display: -ms-flexbox;
+    grid-template-columns: repeat(3, 33%);
+    margin: -20px -12px;
+    flex-wrap: wrap;
+}
+
+.w-grid_wrapper .grid-row .grid-column {
+    flex: 1 0 30%;
+}
+
+.w-grid_wrapper .grid-row .grid-child {
+    border: 1px #ddd solid;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #f8f8f8;
+    color: #172b4d;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.06), 0 5px 15px rgba(0, 0, 0, 0.06);
+    margin: 20px 12px;
+}
+
+/* List */
+.w-list_wrapper .list-child {
+    border: 1px #ddd solid;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #f8f8f8;
+    color: #172b4d;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.06), 0 5px 15px rgba(0, 0, 0, 0.06);
+    margin: 20px 0;
+  }
+  .w-list_wrapper .list-child:first-of-type {
+    margin-top: 0;
+  }
+  .w-list_wrapper .list-child:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /* Slider */  
+  .trustify-slider .swiper-slide {
+    border: 1px #ddd solid;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #f8f8f8;
+    color: #172b4d;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.06), 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+
+  .swiper-container{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+.swiper-button-prev{    
+    left: -4px !important;
+}
+.swiper-button-next{
+    right: -4px !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: 35px !important;
+    height: 35px !important;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 15px !important;
+    font-weight: 600;
+}
+
+
+.trustify .w-review-head {
+    padding: 25px 25px 0 25px;
+}
+
+.trustify .w-review-head .w-review_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trustify .w-review-head .w-review-author {
+    opacity: 0.6;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.trustify .w-review-body {
+    padding: 10px 25px 15px 25px;
+}
+
+.trustify .w-review-body .w-review-content {
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 25px;
+    margin: 0;
+}
+
+.trustify .w-review-footer {
+    padding: 15px 25px;
+    border-top: #ddd 1px solid;
+    position: relative;
+}
+
+.trustify .w-review-footer .w-review-date {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.trustify .w-review-footer .w-review-rating {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.trustify .w-review-footer .w-review-rating i {
+    font-size: 13px;
+    color: #fbc02d;
+}
+
+.trustify p,
+.trustify span {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #172b4d;
+}
+
+.trustify .rating-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.trustify .rating-title #w-title {
+    margin-bottom: 15px;
+}
+
+.trustify .rating-title #w-title svg {
+    height: 28px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.trustify .rating-title #w-title .title-large {
+    font-size: 28px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.trustify .rating-title #w-description span {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.trustify .rating-title #w-description svg {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    margin-left: 3px;
+}
+
+.trustify .empty-star{
+    color: #ccc!important;
+}
+
+
+.swiper-pagination.swiper-pagination-bullets{
+    bottom: -10px !important;
+}
+
+/* ==== RESPONSIVITY ==== */
+@media only screen and (max-width: 540px) {
+    .w-grid_wrapper .grid-row {
+        display: block;
+    }
+
+    
+    .trustify .rating-title #w-title .title-large {
+        font-size: 22px;
+    }
+
+    .trustify .rating-title #w-description span{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+    .w-grid_wrapper .grid-row {
+        grid-template-columns: repeat(2, 50%);
+    }
+}

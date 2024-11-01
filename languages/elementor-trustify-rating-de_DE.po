@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Language: de_DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Rated"
+msgstr "Bewertet"
+
+msgid "Excellent"
+msgstr "Hervorragend"
+
+msgid "Very Good"
+msgstr "Sehr Gut"
+
+msgid "Good"
+msgstr "Gut"
+
+msgid "Acceptable"
+msgstr "Akzeptabel"
+
+msgid "Sufficient"
+msgstr "Ausreichend"
+
+msgid "Inadequate"
+msgstr "Mangelhaft"
+
+msgid "No Reviews"
+msgstr "Keine Bewertungen"
+
+msgid "on"
+msgstr "auf"
+
+msgid "Based on"
+msgstr "Basierend auf"
+
+msgid "Reviews"
+msgstr "Bewertungen"
+
+msgid "with an average rating of"
+msgstr "mit einer durchschnittlichen Bewertung von"
+
+msgid "Posted"
+msgstr "Veröffentlicht"
+
+msgid "ago"
+msgstr " "
+
+msgid "%s ago"
+msgstr "vor %s"
+
+msgid "by"
+msgstr "von"
+
+msgid "No Review"
+msgstr "Keine Bewertung"
